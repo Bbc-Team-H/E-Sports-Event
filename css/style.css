@@ -11,6 +11,8 @@
 
 body {
     z-index: 100;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: rgba(61,217,160,1);
 }
 
@@ -20,6 +22,7 @@ body {
 
 #background {
     z-index: 0;
+    overflow-x: hidden;
 }
 
 .main-title {
@@ -42,6 +45,7 @@ body {
 .next-games{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .next-game-title {
@@ -79,4 +83,24 @@ body {
 
 .game-time {
     font-size: 12px;
+}
+
+.see-more {
+    
+}
+
+.see-more-button {
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    align-self: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(white, #E3E3E3);
+    width: 200px;
+    height: 50px;
+    color: black;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 }
