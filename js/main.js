@@ -2,7 +2,7 @@ function game_click() {
     console.error("Coming soon!");
 }
 
-function redirect(address){
+function redirect(address) {
     window.location.href = address;
 }
 

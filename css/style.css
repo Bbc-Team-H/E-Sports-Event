@@ -13,7 +13,7 @@ body {
     z-index: 100;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: rgba(61,217,160,1);
+    background-color: rgba(61, 217, 160, 1);
 }
 
 #main {
@@ -42,7 +42,7 @@ body {
     text-transform: capitalize;
 }
 
-.next-games{
+.next-games {
     display: flex;
     flex-direction: column;
     align-items: center;

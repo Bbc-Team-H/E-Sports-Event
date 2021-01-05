@@ -1,6 +1,6 @@
 #Top_not_wavy_thing {
-    fill: rgba(61,217,160,1);
-    stroke: rgba(112,112,112,1);
+    fill: rgba(61, 217, 160, 1);
+    stroke: rgba(112, 112, 112, 1);
     stroke-width: 1px;
     stroke-linejoin: miter;
     stroke-linecap: butt;
@@ -8,6 +8,7 @@
     shape-rendering: auto;
     z-index: -100;
 }
+
 .Top_not_wavy_thing {
     /* background-color: rgba(61,217,160,1); */
     overflow: visible;
@@ -18,9 +19,10 @@
     top: -0.001px;
     z-index: 0;
 }
+
 #Low_Not_wavy_thing {
-    fill: rgba(56,166,126,1);
-    stroke: rgba(112,112,112,1);
+    fill: rgba(56, 166, 126, 1);
+    stroke: rgba(112, 112, 112, 1);
     stroke-width: 1px;
     stroke-linejoin: miter;
     stroke-linecap: butt;
@@ -28,6 +30,7 @@
     shape-rendering: auto;
     z-index: -100;
 }
+
 .Low_Not_wavy_thing {
     position: absolute;
     overflow: visible;
@@ -36,9 +39,11 @@
     left: -4px;
     top: 1908px;
 }
+
 #Middle_Wavy_Thing {
-    fill: rgba(65,242,177,1);
+    fill: rgba(65, 242, 177, 1);
 }
+
 .Middle_Wavy_Thing {
     filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
     /* box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.161); */
@@ -48,5 +53,5 @@
     height: 1602.685px;
     left: -10.804px;
     top: 545.063px;
-    transform: matrix(1,0,0,1,0,0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
