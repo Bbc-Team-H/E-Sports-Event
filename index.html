@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <div id="background">
-    <div class="Top_not_wavy_thing"></div>
-    <!-- <svg class="Low_Not_wavy_thing">
+  <div id="mobile">
+    <div id="background">
+      <div class="Top_not_wavy_thing"></div>
+      <!-- <svg class="Low_Not_wavy_thing">
       <rect id="Low_Not_wavy_thing" rx="0" ry="0" x="0" y="0" width="493" height="1148">
       </rect>
     </svg>
@@ -21,80 +22,85 @@
         d="M 1974.0107421875 1462.61279296875 C 1974.0107421875 1462.61279296875 1931.56005859375 1504.126220703125 1895.42626953125 1517.064453125 C 1859.292724609375 1530.00244140625 1780.680908203125 1443.116577148438 1706.101440429688 1445.350463867188 C 1631.522094726563 1447.584594726563 1561.682861328125 1492.585815429688 1511.96337890625 1462.61279296875 C 1462.243896484375 1432.639892578125 1385.133422851563 1383.39892578125 1385.133422851563 1383.39892578125 L 1382.026611328125 2955.906494140625 C 1382.026611328125 2955.906494140625 1442.18017578125 2919.169189453125 1527.04541015625 2895.0986328125 C 1676.203857421875 2845.496826171875 1633.830444335938 2908.953369140625 1748.137939453125 2948.372314453125 C 1862.44580078125 2987.791259765625 1975.965576171875 2955.906494140625 1975.965576171875 2955.906494140625 L 1974.0107421875 1462.61279296875 Z">
       </path>
     </svg> -->
+    </div>
+    <section id="main">
+      <h1 class="main-title">Title</h1>
+      <h2 class="main-subtitle">Subtitle</h2>
+    </section>
+    <section class="next-games">
+      <h3 class="next-game-title">Next Games</h3>
+      <article class="game1" onclick="game_click()">
+        <h4 class="game-title">Team 1 vs Team 2</h4>
+        <p class="game-time">Tuesday, 22. December 2020</p>
+      </article>
+      <article class="game2" onclick="game_click()">
+        <h4 class="game-title">Team 1 vs Team 2</h4>
+        <p class="game-time">Tuesday, 23. December 2020</p>
+      </article>
+      <article class="game3" onclick="game_click()">
+        <h4 class="game-title">Team 1 vs Team 2</h4>
+        <p class="game-time">Tuesday, 24. December 2020</p>
+      </article>
+      <article class="game4" onclick="game_click()">
+        <h4 class="game-title">Team 1 vs Team 2</h4>
+        <p class="game-time">Tuesday, 25. December 2020</p>
+      </article>
+      <article class="games-see-more" onclick="redirect('next_games.html')">
+        <button class="see-more-button">See More</button>
+      </article>
+    </section>
+    <section class="leaderboard">
+      <h3 class="leaderboard title">Leaderboard</h3>
+      <article class="leaderboard first" onclick="leader_click(1)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard first logo">
+        <h4>Gintoro is just better</h4>
+      </article>
+      <article class="leaderboard second" onclick="leader_click(2)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard second logo">
+        <h4>Team Uludag Gazoz</h4>
+      </article>
+      <article class="leaderboard third" onclick="leader_click(3)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard third logo">
+        <h4>Team Is that a JoJo's Reference?</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(4)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Laposta</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(5)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Sacki</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(6)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Nacki</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(7)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Nacki</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(8)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Nacki</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(9)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Nacki</h4>
+      </article>
+      <article class="leaderboard top10" onclick="leader_click(10)">
+        <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
+        <h4>Team Nacki</h4>
+      </article>
+      <article class="leaderboard-see-more" onclick="redirect('leaderboard.html')">
+        <button class="see-more-button">See More</button>
+      </article>
+    </section>
+    <script src="/js/main.js"></script>
   </div>
-  <section id="main">
-    <h1 class="main-title">Title</h1>
-    <h2 class="main-subtitle">Subtitle</h2>
-  </section>
-  <section class="next-games">
-    <h3 class="next-game-title">Next Games</h3>
-    <article class="game1" onclick="game_click()">
-      <h4 class="game-title">Team 1 vs Team 2</h4>
-      <p class="game-time">Tuesday, 22. December 2020</p>
-    </article>
-    <article class="game2" onclick="game_click()">
-      <h4 class="game-title">Team 1 vs Team 2</h4>
-      <p class="game-time">Tuesday, 23. December 2020</p>
-    </article>
-    <article class="game3" onclick="game_click()">
-      <h4 class="game-title">Team 1 vs Team 2</h4>
-      <p class="game-time">Tuesday, 24. December 2020</p>
-    </article>
-    <article class="game4" onclick="game_click()">
-      <h4 class="game-title">Team 1 vs Team 2</h4>
-      <p class="game-time">Tuesday, 25. December 2020</p>
-    </article>
-    <article class="games-see-more" onclick="redirect('next_games.html')">
-      <button class="see-more-button">See More</button>
-    </article>
-  </section>
-  <section class="leaderboard">
-    <h3 class="leaderboard title">Leaderboard</h3>
-    <article class="leaderboard first" onclick="leader_click(1)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard first logo">
-      <h4>Gintoro is just better</h4>
-    </article>
-    <article class="leaderboard second" onclick="leader_click(2)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard second logo">
-      <h4>Team Uludag Gazoz</h4>
-    </article>
-    <article class="leaderboard third" onclick="leader_click(3)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard third logo">
-      <h4>Team Is that a JoJo's Reference?</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(4)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Laposta</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(5)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Sacki</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(6)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Nacki</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(7)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Nacki</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(8)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Nacki</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(9)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Nacki</h4>
-    </article>
-    <article class="leaderboard top10" onclick="leader_click(10)">
-      <img src="img/fnc-logo.png" alt="Fnatic Logo" class="leaderboard top10 logo">
-      <h4>Team Nacki</h4>
-    </article>
-    <article class="leaderboard-see-more" onclick="redirect('leaderboard.html')">
-      <button class="see-more-button">See More</button>
-    </article>
-  </section>
-  <script src="/js/main.js"></script>
+  <div id="desktop">
+
+
+  </div>
 </body>
 
 </html>
