@@ -2,6 +2,10 @@ function game_click() {
     console.error("Coming soon!");
 }
 
+function redirect(address){
+    window.location.href = address;
+}
+
 function coming_soon() {
     console.error("Coming soon!");
 }
