@@ -253,6 +253,15 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
+    @keyframes animatedBackground {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 100% 0;
+        }
+      }
+
     #mobile {
         display: none;
     }
@@ -260,4 +269,12 @@ body {
     #desktop {
         display: block;
     }
+
+    body {
+        background-image: url(https://www.streamscheme.com/wp-content/uploads/2020/04/jebated.png);
+        background-position: 0px 0px;
+        background-repeat: repeat;
+        animation: animatedBackground 10s linear infinite alternate;
+    }
+
 }

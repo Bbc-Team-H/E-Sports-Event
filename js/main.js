@@ -13,3 +13,5 @@ function coming_soon() {
 function leader_click(team_leader_id) {
     console.error("Coming soon! Leader: " + team_leader_id);
 }
+
+// let w = new Worker('js/jebaited.js');
