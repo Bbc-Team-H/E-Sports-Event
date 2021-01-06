@@ -5,262 +5,262 @@
     src: url(https://hackedfont.com/HACKED.ttf);
 }
 
+/* Global Settings */
+
 * {
     margin: 0;
 }
 
-@media screen and (max-width: 1000px) {
+
+/* Mobile Version */
+
+@media screen and (max-width: 1069px) {
 
     #desktop {
         display: none;
     }
 
-body {
-    z-index: 100;
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: rgba(61, 217, 160, 1);
+    body {
+        z-index: 100;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: rgba(61, 217, 160, 1);
+    }
+
+    #main {
+        text-align: center;
+    }
+
+    #background {
+        z-index: 0;
+        overflow-x: hidden;
+    }
+
+    .main-title {
+        font-family: Hacked, sans-serif;
+        font-style: normal;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        font-size: 100px;
+        text-transform: capitalize;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .main-subtitle {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .next-games {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .next-game-title {
+        align-self: center;
+        justify-content: space-evenly;
+
+        color: black;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+
+    .game1 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game2 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game3 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game4 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+
+    .game-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .game-time {
+        font-size: 12px;
+    }
+
+    .see-more-button {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 200px;
+        height: 50px;
+        color: black;
+        border: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leaderboard.title {
+        align-self: center;
+        justify-content: space-evenly;
+
+        z-index: 1;
+        color: black;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+    .leaderboard.first {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.first.logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.second {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.second.logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.third {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.third.logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.top10 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.top10.logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
 }
 
-#main {
-    text-align: center;
-}
+/* Desktop Version */
 
-#background {
-    z-index: 0;
-    overflow-x: hidden;
-}
-
-.main-title {
-    font-family: Hacked, sans-serif;
-    font-style: normal;
-    color: black;
-    font-weight: normal;
-    text-align: center;
-    font-size: 100px;
-    text-transform: capitalize;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.main-subtitle {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: black;
-    text-transform: capitalize;
-}
-
-.next-games {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.next-game-title {
-    align-self: center;
-    justify-content: space-evenly;
-
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-}
-
-
-.game1 {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 92px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.game2 {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 92px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.game3 {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 92px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.game4 {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 92px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-
-.game-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.game-time {
-    font-size: 12px;
-}
-
-.see-more-button {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 200px;
-    height: 50px;
-    color: black;
-    border: none;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.leaderboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.leaderboard.title {
-    align-self: center;
-    justify-content: space-evenly;
-
-    z-index: 1;
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-}
-
-.leaderboard.first {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.leaderboard.first.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.leaderboard.second {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.leaderboard.second.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.leaderboard.third {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.leaderboard.third.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.leaderboard.top10 {
-    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-    align-self: center;
-    justify-content: space-evenly;
-    background-image: linear-gradient(white, #E3E3E3);
-    width: 90%;
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-}
-
-.leaderboard.top10.logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-}
-
-@media only screen and (min-width: 1000px) {
-    @keyframes animatedBackground {
-        from {
-          background-position: 0 0;
-        }
-        to {
-          background-position: 100% 0;
-        }
-      }
+@media screen and (min-width: 1070px) {
 
     #mobile {
         display: none;
@@ -271,10 +271,64 @@ body {
     }
 
     body {
-        background-image: url(https://www.streamscheme.com/wp-content/uploads/2020/04/jebated.png);
-        background-position: 0px 0px;
-        background-repeat: repeat;
-        animation: animatedBackground 10s linear infinite alternate;
+        background-color: rgba(61, 217, 160, 1);
     }
 
+    .desktop-sidebar {
+        position: fixed;
+        width: 15%;
+        height: 100vh;
+        background: #0EA17E;
+        font-size: 0.65em;
+      }
+      
+      .desktop-nav {
+        position: relative;
+        margin: 0 15%;
+        text-align: right;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: bold;
+      }
+      
+      .desktop-nav ul {
+        list-style: none;
+      }
+      .desktop-nav ul li {
+        position: relative;
+        margin: 3.2em 0;
+      }
+      .desktop-nav ul li a {
+        line-height: 5em;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.2em;
+        color: white;
+        display: block;
+        transition: all ease-out 300ms;
+      }
+      .desktop-nav ul li.active a {
+        color: white;
+      }
+      .desktop-nav ul li:not(.active)::after {
+        opacity: 0.2;
+      }
+      .desktop-nav ul li:not(.active):hover a {
+        color: rgba(0, 0, 0, 0.75);
+      }
+      .desktop-nav ul li::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.2em;
+        background: black;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+      }
+
+    .desktop-main {
+        margin-left: 15%;
+    }
 }

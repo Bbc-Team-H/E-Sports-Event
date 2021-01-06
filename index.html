@@ -12,7 +12,7 @@
 <body>
   <div id="mobile">
     <div id="background">
-      <div class="Top_not_wavy_thing"></div>
+      <!-- <div class="Top_not_wavy_thing"></div> -->
       <!-- <svg class="Low_Not_wavy_thing">
       <rect id="Low_Not_wavy_thing" rx="0" ry="0" x="0" y="0" width="493" height="1148">
       </rect>
@@ -98,8 +98,22 @@
     <script src="/js/main.js"></script>
   </div>
   <div id="desktop">
-    <h1>Fuck You!</h1>
-    <iframe width="1000" height="800" src="https://www.youtube.com/embed/d1YBv2mWll0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <aside class="desktop-sidebar">
+      <nav class="desktop-nav">
+        <ul>
+          <li class="desktop-nav-active"><a href="#">Home</a></li>
+          <li><a href="#">Next Games</a></li>
+          <li><a href="#">Leaderboard</a></li>
+          <li><a href="#">Teams</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="desktop-main">
+      <div class="desktop-game-container"></div>
+      <div class="desktop-leaderboard-container"></div>
+      <div class="desktop-teams-container"></div>
+    </div>
+    <footer></footer>
   </div>
 </body>
 
