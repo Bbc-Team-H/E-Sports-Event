@@ -286,6 +286,17 @@
         color: #fff;
     }
 
+    .impressum-main-title {
+        font-family: Hacked, sans-serif;
+        font-style: normal;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        font-size: 80px;
+        text-transform: capitalize;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
     .impressum-container {
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         display: flex;
@@ -354,9 +365,32 @@
         display: block;
     }
 
+    .hidden {
+        display: none;
+    }
+
     body {
         background-color: rgba(61, 217, 160, 1);
     }
+
+    .main-title {
+        font-family: Hacked, sans-serif;
+        font-style: normal;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        font-size: 100px;
+        text-transform: capitalize;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .main-subtitle {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
 
     .desktop-sidebar {
         position: fixed;
@@ -416,6 +450,17 @@
         left: 0;
         bottom: 0;
         background-color: white;
+    }
+
+    .impressum-main-title {
+        font-family: Hacked, sans-serif;
+        font-style: normal;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        font-size: 80px;
+        text-transform: capitalize;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     }
 
     .impressum-container {
@@ -482,9 +527,134 @@
         color: #009879;
     }
 
-    .desktop-main {
-        margin-left: 15%;
+    #desktop-main {
+        margin-left: 16%;
+    }
+
+    #desktop-home-container {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #desktop-home-container.hidden {
+        display: none;
+    }
+
+    #desktop-game-container.hidden {
+        display: none;
+    }
+
+    #desktop-game-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game1 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game2 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game3 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .game4 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     }
 
 
+    .game-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .game-time {
+        font-size: 12px;
+    }
+
+    .see-more-button {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 200px;
+        height: 50px;
+        color: black;
+        border: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    #desktop-leaderboard-container.hidden {
+        display: none;
+    }
+
+    #desktop-teams-container.hidden {
+        display: none;
+    }
 }

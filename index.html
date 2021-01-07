@@ -104,17 +104,47 @@
     <aside class="desktop-sidebar">
       <nav class="desktop-nav">
         <ul>
-          <li class="desktop-nav-active"><a href="#">Home</a></li>
-          <li><a href="#">Next Games</a></li>
-          <li><a href="#">Leaderboard</a></li>
-          <li><a href="#">Teams</a></li>
+          <li class="desktop-nav-active"><a href="javascript:void(0)" onclick="changeHome()">Home</a></li>
+          <li><a href="javascript:void(0)" onclick="changeNextGame()">Next Games</a></li>
+          <li><a href="javascript:void(0)" onclick="changeLeaderboard()">Leaderboard</a></li>
+          <li><a href="javascript:void(0)" onclick="changeTeam()">Teams</a></li>
         </ul>
       </nav>
     </aside>
-    <div class="desktop-main">
-      <div class="desktop-game-container"></div>
-      <div class="desktop-leaderboard-container"></div>
-      <div class="desktop-teams-container"></div>
+    <div id="desktop-main">
+      <div id="desktop-home-container">
+        <h1 class="main-title">Title</h1>
+        <h2 class="main-subtitle">Subtitle</h2>
+      </div>
+      <div id="desktop-game-container" class="hidden">
+        <article class="game1" onclick="game_click()">
+          <h4 class="game-title">Team 1 vs Team 2</h4>
+          <p class="game-time">Tuesday, 22. December 2020</p>
+        </article>
+        <article class="game2" onclick="game_click()">
+          <h4 class="game-title">Team 1 vs Team 2</h4>
+          <p class="game-time">Tuesday, 23. December 2020</p>
+        </article>
+        <article class="game3" onclick="game_click()">
+          <h4 class="game-title">Team 1 vs Team 2</h4>
+          <p class="game-time">Tuesday, 24. December 2020</p>
+        </article>
+        <article class="game4" onclick="game_click()">
+          <h4 class="game-title">Team 1 vs Team 2</h4>
+          <p class="game-time">Tuesday, 25. December 2020</p>
+        </article>
+        <article class="games-see-more" onclick="redirect('next_games.html')">
+          <button class="see-more-button">See More</button>
+        </article>
+      </div>
+      <div id="desktop-leaderboard-container" class="hidden">
+        <h1>Test Leaderboard Container</h1>
+        <h1>Test 2 Leaderboard Container</h1>
+      </div>
+      <div id="desktop-teams-container" class="hidden">
+        <h1>Test Teams Container</h1>
+        <h1>Test 2 Teams Container</h1>
+      </div>
     </div>
     <footer></footer>
   </div>
