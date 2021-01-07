@@ -11,7 +11,6 @@
     margin: 0;
 }
 
-
 /* Mobile Version */
 
 @media screen and (max-width: 1069px) {
@@ -24,7 +23,7 @@
         z-index: 100;
         max-width: 100%;
         overflow-x: hidden;
-        background-color: rgba(61, 217, 160, 1);
+        background-color: #FF4655;
     }
 
     a {
@@ -48,7 +47,7 @@
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
     }
 
     .main-subtitle {
@@ -82,7 +81,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -96,7 +95,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -110,7 +109,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -124,7 +123,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -138,7 +137,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -162,7 +161,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 200px;
         height: 50px;
         color: black;
@@ -198,7 +197,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 100px;
         text-align: center;
@@ -218,7 +217,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 100px;
         text-align: center;
@@ -238,7 +237,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 100px;
         text-align: center;
@@ -258,7 +257,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 100px;
         text-align: center;
@@ -370,7 +369,7 @@
     }
 
     body {
-        background-color: rgba(61, 217, 160, 1);
+        background-color: #FF4655;
     }
 
     .main-title {
@@ -381,7 +380,7 @@
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
     }
 
     .main-subtitle {
@@ -389,6 +388,7 @@
         color: black;
         text-transform: capitalize;
         text-align: center;
+        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
     }
 
 
@@ -396,7 +396,7 @@
         position: fixed;
         width: 15%;
         height: 100vh;
-        background: #0EA17E;
+        background: #0F1923;
         font-size: 0.65em;
     }
 
@@ -424,13 +424,13 @@
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 0.2em;
-        color: white;
+        color: #ECE8E1;
         display: block;
         transition: all ease-out 300ms;
     }
 
     .desktop-nav ul li.active a {
-        color: white;
+        color: #ECE8E1;
     }
 
     .desktop-nav ul li:not(.active)::after {
@@ -438,7 +438,7 @@
     }
 
     .desktop-nav ul li:not(.active):hover a {
-        color: rgba(0, 0, 0, 0.75);
+        color: #8C3243;
     }
 
     .desktop-nav ul li::after {
@@ -449,7 +449,7 @@
         background: black;
         left: 0;
         bottom: 0;
-        background-color: white;
+        background-color: #ECE8E1;
     }
 
     .impressum-main-title {
@@ -478,7 +478,7 @@
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
     }
 
     .impressum-title {
@@ -533,10 +533,23 @@
 
     #desktop-home-container {
         display: flex;
-        flex-basis: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    @keyframes slideInFromTop {
+        0% {
+            margin-top: 0%;
+        }
+        100% {
+            margin-top: 500px;
+        }
+      }
+
+    #desktop-home-title {
+        margin-top: 500px;
+        animation: 1s cubic-bezier(0.71, 0.03, 0.26, 0.97) 0s 1 slideInFromTop;
     }
 
     #desktop-home-container.hidden {
@@ -558,7 +571,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -572,7 +585,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -586,7 +599,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -600,7 +613,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -614,7 +627,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 90%;
         height: 92px;
         text-align: center;
@@ -638,7 +651,7 @@
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         align-self: center;
         justify-content: space-evenly;
-        background-image: linear-gradient(white, #E3E3E3);
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
         width: 200px;
         height: 50px;
         color: black;

@@ -61,3 +61,9 @@ function changeTeam() {
     leaderboardpage.classList.add("hidden");
     teamspage.classList.remove("hidden");
 }
+
+function introAnimationHome(){
+    introText = document.getElementById("desktop-home-title");
+
+    introText.style.marginTop = "42%";
+}
