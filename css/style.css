@@ -27,6 +27,10 @@
         background-color: rgba(61, 217, 160, 1);
     }
 
+    a {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
     #main {
         text-align: center;
     }
@@ -74,6 +78,19 @@
         font-size: 21px;
     }
 
+    .game {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(white, #E3E3E3);
+        width: 90%;
+        height: 92px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
 
     .game1 {
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -256,6 +273,73 @@
         height: 50px;
         border-radius: 50%;
     }
+
+    #mobile-footer {
+        border-top: 1px dotted #000;
+        text-align: right;
+    }
+
+    #mobile-footer a {
+        margin: 10px;
+        padding: 10px;
+        text-decoration: dotted;
+        color: #fff;
+    }
+
+    .impressum-container {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impressum-title {
+        padding: 15px;
+    }
+
+    .impressum-container p {
+        width: 80%;
+    }
+
+    .picture-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .picture-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .picture-table th,
+    .picture-table td {
+        padding: 12px 15px;
+    }
+
+    .picture-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .picture-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .picture-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .picture-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+    }
+
+
 }
 
 /* Desktop Version */
@@ -280,25 +364,27 @@
         height: 100vh;
         background: #0EA17E;
         font-size: 0.65em;
-      }
-      
-      .desktop-nav {
+    }
+
+    .desktop-nav {
         position: relative;
         margin: 0 15%;
         text-align: right;
         top: 50%;
         transform: translateY(-50%);
         font-weight: bold;
-      }
-      
-      .desktop-nav ul {
+    }
+
+    .desktop-nav ul {
         list-style: none;
-      }
-      .desktop-nav ul li {
+    }
+
+    .desktop-nav ul li {
         position: relative;
         margin: 3.2em 0;
-      }
-      .desktop-nav ul li a {
+    }
+
+    .desktop-nav ul li a {
         line-height: 5em;
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
         text-transform: uppercase;
@@ -307,17 +393,21 @@
         color: white;
         display: block;
         transition: all ease-out 300ms;
-      }
-      .desktop-nav ul li.active a {
+    }
+
+    .desktop-nav ul li.active a {
         color: white;
-      }
-      .desktop-nav ul li:not(.active)::after {
+    }
+
+    .desktop-nav ul li:not(.active)::after {
         opacity: 0.2;
-      }
-      .desktop-nav ul li:not(.active):hover a {
+    }
+
+    .desktop-nav ul li:not(.active):hover a {
         color: rgba(0, 0, 0, 0.75);
-      }
-      .desktop-nav ul li::after {
+    }
+
+    .desktop-nav ul li::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -326,9 +416,75 @@
         left: 0;
         bottom: 0;
         background-color: white;
-      }
+    }
+
+    .impressum-container {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title {
+        font-family: Hacked, sans-serif;
+        font-style: normal;
+        color: black;
+        font-weight: normal;
+        text-align: center;
+        font-size: 100px;
+        text-transform: capitalize;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .impressum-title {
+        padding: 15px;
+    }
+
+    .impressum-container p {
+        width: 80%;
+    }
+
+    .picture-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .picture-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+
+    .picture-table th,
+    .picture-table td {
+        padding: 12px 15px;
+    }
+
+    .picture-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .picture-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .picture-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .picture-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+    }
 
     .desktop-main {
         margin-left: 15%;
     }
+
+
 }
