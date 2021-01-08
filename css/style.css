@@ -842,7 +842,7 @@
     }
 
     #desktop-footer {
-        position: absolute;
+        position: fixed;
         margin-left: 15%;
         bottom: 5px;
         right: 5px;
