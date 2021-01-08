@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @font-face {
-    font-family: Hacked;
-    src: url(https://hackedfont.com/HACKED.ttf);
+    font-family: VALORANT;
+    src: url("../font/Valorant-Font.ttf");
 }
 
 /* Global Settings */
@@ -23,11 +23,29 @@
         z-index: 100;
         max-width: 100%;
         overflow-x: hidden;
+        color: #0F1923;
         background-color: #FF4655;
     }
 
     a {
         font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    p {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: VALORANT, Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .desktop-sidebar {
+        display: none;
     }
 
     #main {
@@ -40,14 +58,14 @@
     }
 
     .main-title {
-        font-family: Hacked, sans-serif;
+        font-family: VALORANT, sans-serif;
         font-style: normal;
         color: black;
         font-weight: normal;
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
+        text-shadow: 2px 6px 14px rgba(0, 0, 0, 0.3);
     }
 
     .main-subtitle {
@@ -286,12 +304,12 @@
     }
 
     .impressum-main-title {
-        font-family: Hacked, sans-serif;
+        font-family: VALORANT, sans-serif;
         font-style: normal;
         color: black;
         font-weight: normal;
         text-align: center;
-        font-size: 80px;
+        font-size: 40px;
         text-transform: capitalize;
         filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     }
@@ -322,7 +340,7 @@
     }
 
     .picture-table thead tr {
-        background-color: #009879;
+        background-color: #0F1923;
         color: #ffffff;
         text-align: left;
     }
@@ -341,7 +359,7 @@
     }
 
     .picture-table tbody tr:last-of-type {
-        border-bottom: 2px solid #009879;
+        border-bottom: 2px solid #0F1923;
     }
 
     .picture-table tbody tr.active-row {
@@ -372,15 +390,32 @@
         background-color: #FF4655;
     }
 
+    a {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    p {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: VALORANT, Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
     .main-title {
-        font-family: Hacked, sans-serif;
+        font-family: VALORANT, sans-serif;
         font-style: normal;
         color: black;
         font-weight: normal;
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
+        text-shadow: 2px 6px 14px rgba(0, 0, 0, 0.3);
     }
 
     .main-subtitle {
@@ -388,7 +423,7 @@
         color: black;
         text-transform: capitalize;
         text-align: center;
-        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
+        text-shadow: 2px 6px 14px rgba(0, 0, 0, 0.3);
     }
 
 
@@ -453,12 +488,12 @@
     }
 
     .impressum-main-title {
-        font-family: Hacked, sans-serif;
+        font-family: VALORANT, sans-serif;
         font-style: normal;
         color: black;
         font-weight: normal;
         text-align: center;
-        font-size: 80px;
+        font-size: 40px;
         text-transform: capitalize;
         filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     }
@@ -471,14 +506,14 @@
     }
 
     .main-title {
-        font-family: Hacked, sans-serif;
+        font-family: VALORANT, sans-serif;
         font-style: normal;
         color: black;
         font-weight: normal;
         text-align: center;
         font-size: 100px;
         text-transform: capitalize;
-        text-shadow: 2px 6px 14px rgba(0,0,0,0.3);
+        text-shadow: 2px 6px 14px rgba(0, 0, 0, 0.3);
     }
 
     .impressum-title {
@@ -500,7 +535,7 @@
     }
 
     .picture-table thead tr {
-        background-color: #009879;
+        background-color: #0F1923;
         color: #ffffff;
         text-align: left;
     }
@@ -519,7 +554,7 @@
     }
 
     .picture-table tbody tr:last-of-type {
-        border-bottom: 2px solid #009879;
+        border-bottom: 2px solid #0F1923;
     }
 
     .picture-table tbody tr.active-row {
@@ -542,13 +577,14 @@
         0% {
             margin-top: 0%;
         }
+
         100% {
-            margin-top: 500px;
+            margin-top: 25%;
         }
-      }
+    }
 
     #desktop-home-title {
-        margin-top: 500px;
+        margin-top: 25%;
         animation: 1s cubic-bezier(0.71, 0.03, 0.26, 0.97) 0s 1 slideInFromTop;
     }
 
@@ -572,7 +608,7 @@
         align-self: center;
         justify-content: space-evenly;
         background-image: linear-gradient(#ECE8E1, #E3E3E3);
-        width: 90%;
+        width: 60%;
         height: 92px;
         text-align: center;
         margin-top: 10px;
@@ -586,7 +622,7 @@
         align-self: center;
         justify-content: space-evenly;
         background-image: linear-gradient(#ECE8E1, #E3E3E3);
-        width: 90%;
+        width: 60%;
         height: 92px;
         text-align: center;
         margin-top: 10px;
@@ -600,7 +636,7 @@
         align-self: center;
         justify-content: space-evenly;
         background-image: linear-gradient(#ECE8E1, #E3E3E3);
-        width: 90%;
+        width: 60%;
         height: 92px;
         text-align: center;
         margin-top: 10px;
@@ -614,7 +650,7 @@
         align-self: center;
         justify-content: space-evenly;
         background-image: linear-gradient(#ECE8E1, #E3E3E3);
-        width: 90%;
+        width: 60%;
         height: 92px;
         text-align: center;
         margin-top: 10px;
@@ -628,7 +664,7 @@
         align-self: center;
         justify-content: space-evenly;
         background-image: linear-gradient(#ECE8E1, #E3E3E3);
-        width: 90%;
+        width: 60%;
         height: 92px;
         text-align: center;
         margin-top: 10px;
@@ -663,8 +699,134 @@
         filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     }
 
+    .next-games {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .next-game-title {
+        align-self: center;
+        justify-content: space-evenly;
+
+        color: black;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+
     #desktop-leaderboard-container.hidden {
         display: none;
+    }
+
+    #desktop-leaderboard-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leaderboard.title {
+        align-self: center;
+        justify-content: space-evenly;
+
+        z-index: 1;
+        color: black;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+    .leaderboard.first {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.first.logo {
+        width: 50px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.second {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.second.logo {
+        width: 50px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.third {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.third.logo {
+        width: 50px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .leaderboard.top10 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+        align-self: center;
+        justify-content: space-evenly;
+        background-image: linear-gradient(#ECE8E1, #E3E3E3);
+        width: 60%;
+        height: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    }
+
+    .leaderboard.top10.logo {
+        width: 50px;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+        height: 50px;
+        border-radius: 50%;
     }
 
     #desktop-teams-container.hidden {

@@ -18,49 +18,49 @@ function changeHome() {
     homepage = document.querySelector("#desktop-home-container");
     gamepage = document.querySelector("#desktop-game-container");
     leaderboardpage = document.querySelector("#desktop-leaderboard-container");
-    teamspage = document.querySelector("#desktop-teams-container");
+    // teamspage = document.querySelector("#desktop-teams-container");
 
     homepage.classList.remove("hidden");
     gamepage.classList.add("hidden");
     leaderboardpage.classList.add("hidden");
-    teamspage.classList.add("hidden");
+    // teamspage.classList.add("hidden");
 }
 
 function changeNextGame() {
     homepage = document.querySelector("#desktop-home-container");
     gamepage = document.querySelector("#desktop-game-container");
     leaderboardpage = document.querySelector("#desktop-leaderboard-container");
-    teamspage = document.querySelector("#desktop-teams-container");
+    // teamspage = document.querySelector("#desktop-teams-container");
 
     homepage.classList.add("hidden");
     gamepage.classList.remove("hidden");
     leaderboardpage.classList.add("hidden");
-    teamspage.classList.add("hidden");
+    // teamspage.classList.add("hidden");
 }
 
 function changeLeaderboard() {
     homepage = document.querySelector("#desktop-home-container");
     gamepage = document.querySelector("#desktop-game-container");
     leaderboardpage = document.querySelector("#desktop-leaderboard-container");
-    teamspage = document.querySelector("#desktop-teams-container");
+    // teamspage = document.querySelector("#desktop-teams-container");
 
     homepage.classList.add("hidden");
     gamepage.classList.add("hidden");
     leaderboardpage.classList.remove("hidden");
-    teamspage.classList.add("hidden");
+    // teamspage.classList.add("hidden");
 }
 
-function changeTeam() {
-    homepage = document.querySelector("#desktop-home-container");
-    gamepage = document.querySelector("#desktop-game-container");
-    leaderboardpage = document.querySelector("#desktop-leaderboard-container");
-    teamspage = document.querySelector("#desktop-teams-container");
+// function changeTeam() {
+//     homepage = document.querySelector("#desktop-home-container");
+//     gamepage = document.querySelector("#desktop-game-container");
+//     leaderboardpage = document.querySelector("#desktop-leaderboard-container");
+//     teamspage = document.querySelector("#desktop-teams-container");
 
-    homepage.classList.add("hidden");
-    gamepage.classList.add("hidden");
-    leaderboardpage.classList.add("hidden");
-    teamspage.classList.remove("hidden");
-}
+//     homepage.classList.add("hidden");
+//     gamepage.classList.add("hidden");
+//     leaderboardpage.classList.add("hidden");
+//     teamspage.classList.remove("hidden");
+// }
 
 function introAnimationHome(){
     introText = document.getElementById("desktop-home-title");
