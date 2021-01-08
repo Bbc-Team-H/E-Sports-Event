@@ -14,6 +14,26 @@ function leader_click(team_leader_id) {
     console.error("Coming soon! Leader: " + team_leader_id);
 }
 
+// Background Music Controller
+
+var yourAudio = document.getElementById('background-audio'),
+    ctrl = document.getElementById('audioControl');
+
+ctrl.onclick = function () {
+
+    var pause = ctrl.innerHTML === '⏸️';
+    ctrl.innerHTML = pause ? '🎧' : '⏸️';
+
+    var method = pause ? 'pause' : 'play';
+    yourAudio[method]();
+
+    return false;
+};
+
+
+
+// Desktop Navigation
+
 function changeHome() {
     homepage = document.querySelector("#desktop-home-container");
     gamepage = document.querySelector("#desktop-game-container");
@@ -62,7 +82,7 @@ function changeLeaderboard() {
 //     teamspage.classList.remove("hidden");
 // }
 
-function introAnimationHome(){
+function introAnimationHome() {
     introText = document.getElementById("desktop-home-title");
 
     introText.style.marginTop = "42%";

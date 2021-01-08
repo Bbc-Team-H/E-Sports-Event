@@ -407,6 +407,14 @@
         font-family: VALORANT, Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
+    #audioControl {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
     .main-title {
         font-family: VALORANT, sans-serif;
         font-style: normal;
