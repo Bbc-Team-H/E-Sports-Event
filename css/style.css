@@ -832,4 +832,16 @@
     #desktop-teams-container.hidden {
         display: none;
     }
+
+    #desktop-footer {
+        position: absolute;
+        margin-left: 15%;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    #footer-impressum {
+        text-decoration: none;
+        color: #8C3243;
+    }
 }
